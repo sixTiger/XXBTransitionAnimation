@@ -39,7 +39,7 @@ static NSString *transitionAnimationCellID = @"XXBTransitionAnimationCell";
 }
 
 - (void)initNavi {
-    self.title = @"转场动画效果";
+    self.title = @"Present 转场动画效果";
 }
 
 - (void)initData {

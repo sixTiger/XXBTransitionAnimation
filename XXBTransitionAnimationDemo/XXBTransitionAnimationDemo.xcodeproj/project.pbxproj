@@ -31,6 +31,14 @@
 		62D79A2320451FB30070C061 /* XXBTransitionAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D79A1E20451FB30070C061 /* XXBTransitionAnimationCell.m */; };
 		62D79A2A204525070070C061 /* XXBPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D79A29204525070070C061 /* XXBPushViewController.m */; };
 		62D79A2D204526950070C061 /* XXBPushSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D79A2C204526950070C061 /* XXBPushSecondViewController.m */; };
+		78A964232148B43400378BBE /* XXBTransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964222148B43400378BBE /* XXBTransitionModel.m */; };
+		78A964262148B51B00378BBE /* XXBTransitionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964252148B51B00378BBE /* XXBTransitionListController.m */; };
+		78A964292148B82400378BBE /* XXBTransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964282148B82400378BBE /* XXBTransitionCell.m */; };
+		78A9642C2148DB5900378BBE /* XXBTransitionToController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9642B2148DB5900378BBE /* XXBTransitionToController.m */; };
+		78A9642F2148DBC600378BBE /* XXBTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9642E2148DBC600378BBE /* XXBTransitionManager.m */; };
+		78A964322148E49900378BBE /* XXBScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964312148E49900378BBE /* XXBScaleTransition.m */; };
+		78A964352148EB8B00378BBE /* XXBBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964342148EB8B00378BBE /* XXBBaseTransition.m */; };
+		78A9643821490BD600378BBE /* XXBPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9643721490BD600378BBE /* XXBPushTransition.m */; };
 		922F31445040E0EA7CC9E101 /* libPods-XXBTransitionAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1757A8F5DD1D4F5544512BFC /* libPods-XXBTransitionAnimationDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +86,22 @@
 		62D79A29204525070070C061 /* XXBPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPushViewController.m; sourceTree = "<group>"; };
 		62D79A2B204526950070C061 /* XXBPushSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBPushSecondViewController.h; sourceTree = "<group>"; };
 		62D79A2C204526950070C061 /* XXBPushSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPushSecondViewController.m; sourceTree = "<group>"; };
+		78A964212148B43400378BBE /* XXBTransitionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionModel.h; sourceTree = "<group>"; };
+		78A964222148B43400378BBE /* XXBTransitionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionModel.m; sourceTree = "<group>"; };
+		78A964242148B51B00378BBE /* XXBTransitionListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionListController.h; sourceTree = "<group>"; };
+		78A964252148B51B00378BBE /* XXBTransitionListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionListController.m; sourceTree = "<group>"; };
+		78A964272148B82400378BBE /* XXBTransitionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionCell.h; sourceTree = "<group>"; };
+		78A964282148B82400378BBE /* XXBTransitionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionCell.m; sourceTree = "<group>"; };
+		78A9642A2148DB5900378BBE /* XXBTransitionToController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionToController.h; sourceTree = "<group>"; };
+		78A9642B2148DB5900378BBE /* XXBTransitionToController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionToController.m; sourceTree = "<group>"; };
+		78A9642D2148DBC600378BBE /* XXBTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionManager.h; sourceTree = "<group>"; };
+		78A9642E2148DBC600378BBE /* XXBTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionManager.m; sourceTree = "<group>"; };
+		78A964302148E49900378BBE /* XXBScaleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBScaleTransition.h; sourceTree = "<group>"; };
+		78A964312148E49900378BBE /* XXBScaleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBScaleTransition.m; sourceTree = "<group>"; };
+		78A964332148EB8B00378BBE /* XXBBaseTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBBaseTransition.h; sourceTree = "<group>"; };
+		78A964342148EB8B00378BBE /* XXBBaseTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBBaseTransition.m; sourceTree = "<group>"; };
+		78A9643621490BD600378BBE /* XXBPushTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBPushTransition.h; sourceTree = "<group>"; };
+		78A9643721490BD600378BBE /* XXBPushTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPushTransition.m; sourceTree = "<group>"; };
 		B8D152AA52433ED565186555 /* Pods-XXBTransitionAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXBTransitionAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXBTransitionAnimationDemo/Pods-XXBTransitionAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D63E25DF537473C77A1A82B6 /* Pods-XXBTransitionAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXBTransitionAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXBTransitionAnimationDemo/Pods-XXBTransitionAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +148,7 @@
 		62BA72D22044F80E00D6662A /* XXBTransitionAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78A9641E2148B3D000378BBE /* NavigationalPushAnimation */,
 				62D79A1120451FB30070C061 /* Class */,
 				62BA72E92044FB1000D6662A /* XXBTransitionAnimation */,
 				62BA72D92044F80E00D6662A /* Main.storyboard */,
@@ -266,6 +291,45 @@
 			path = XXBPush;
 			sourceTree = "<group>";
 		};
+		78A9641E2148B3D000378BBE /* NavigationalPushAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				78A964202148B3F700378BBE /* Controller */,
+				78A9641F2148B3E200378BBE /* Transition */,
+				78A964212148B43400378BBE /* XXBTransitionModel.h */,
+				78A964222148B43400378BBE /* XXBTransitionModel.m */,
+				78A964272148B82400378BBE /* XXBTransitionCell.h */,
+				78A964282148B82400378BBE /* XXBTransitionCell.m */,
+			);
+			path = NavigationalPushAnimation;
+			sourceTree = "<group>";
+		};
+		78A9641F2148B3E200378BBE /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				78A9642D2148DBC600378BBE /* XXBTransitionManager.h */,
+				78A9642E2148DBC600378BBE /* XXBTransitionManager.m */,
+				78A964302148E49900378BBE /* XXBScaleTransition.h */,
+				78A964312148E49900378BBE /* XXBScaleTransition.m */,
+				78A964332148EB8B00378BBE /* XXBBaseTransition.h */,
+				78A964342148EB8B00378BBE /* XXBBaseTransition.m */,
+				78A9643621490BD600378BBE /* XXBPushTransition.h */,
+				78A9643721490BD600378BBE /* XXBPushTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		78A964202148B3F700378BBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78A964242148B51B00378BBE /* XXBTransitionListController.h */,
+				78A964252148B51B00378BBE /* XXBTransitionListController.m */,
+				78A9642A2148DB5900378BBE /* XXBTransitionToController.h */,
+				78A9642B2148DB5900378BBE /* XXBTransitionToController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C4B47A6CC09B9DF79F7C009C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +367,7 @@
 		62BA72C82044F80E00D6662A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = xiaobing;
 				TargetAttributes = {
 					62BA72CF2044F80E00D6662A = {
@@ -404,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D79A2020451FB30070C061 /* AppDelegate.m in Sources */,
+				78A964262148B51B00378BBE /* XXBTransitionListController.m in Sources */,
 				62D79A1F20451FB30070C061 /* main.m in Sources */,
 				62BA72FA2044FB1000D6662A /* XXBEventViewController.m in Sources */,
 				62D79A2A204525070070C061 /* XXBPushViewController.m in Sources */,
@@ -411,14 +476,21 @@
 				62BA72FB2044FB1000D6662A /* XXBDescribeViewController.m in Sources */,
 				62BA72F92044FB1000D6662A /* XXBEventLayout.m in Sources */,
 				62D79A2320451FB30070C061 /* XXBTransitionAnimationCell.m in Sources */,
+				78A9642F2148DBC600378BBE /* XXBTransitionManager.m in Sources */,
 				62D79A2120451FB30070C061 /* ViewController.m in Sources */,
 				62BA72FC2044FB1000D6662A /* XXBEventCell.m in Sources */,
 				62D79A0A2045069E0070C061 /* XXBCircleSpreadPresentedController.m in Sources */,
 				62D79A2220451FB30070C061 /* XXBTransitionAnimationModel.m in Sources */,
+				78A964352148EB8B00378BBE /* XXBBaseTransition.m in Sources */,
 				62D79A2D204526950070C061 /* XXBPushSecondViewController.m in Sources */,
+				78A9643821490BD600378BBE /* XXBPushTransition.m in Sources */,
 				62BA72F82044FB1000D6662A /* XXBEventTransition.m in Sources */,
+				78A964322148E49900378BBE /* XXBScaleTransition.m in Sources */,
+				78A964292148B82400378BBE /* XXBTransitionCell.m in Sources */,
 				62D79A0D2045078B0070C061 /* XXBCircleSpreadTransition.m in Sources */,
 				62A87ADA2045302A00A0554C /* XXBPhotoShowView.m in Sources */,
+				78A964232148B43400378BBE /* XXBTransitionModel.m in Sources */,
+				78A9642C2148DB5900378BBE /* XXBTransitionToController.m in Sources */,
 				62D79A07204505C60070C061 /* XXBCircleSpreadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +531,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -466,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -514,6 +588,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -521,6 +596,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -555,7 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MLM6EQV39M;
+				DEVELOPMENT_TEAM = XVTV8VU3M3;
 				INFOPLIST_FILE = XXBTransitionAnimationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -571,7 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MLM6EQV39M;
+				DEVELOPMENT_TEAM = XVTV8VU3M3;
 				INFOPLIST_FILE = XXBTransitionAnimationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -11,7 +11,7 @@
 #import "XXBCircleSpreadTransition.h"
 #import "XXBInteractiveTransition.h"
 
-@interface XXBCircleSpreadPresentedController ()
+@interface XXBCircleSpreadPresentedController ()<UIViewControllerTransitioningDelegate>
 
 @property (nonatomic, strong) XXBInteractiveTransition *interactiveTransition;
 @end
