@@ -32,6 +32,7 @@
 		62D79A2A204525070070C061 /* XXBPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D79A29204525070070C061 /* XXBPushViewController.m */; };
 		62D79A2D204526950070C061 /* XXBPushSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D79A2C204526950070C061 /* XXBPushSecondViewController.m */; };
 		782427F32149FD7D0041B7B3 /* XXBTransitionShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782427F22149FD7D0041B7B3 /* XXBTransitionShotCell.m */; };
+		782427FC214A55DB0041B7B3 /* XXBWindTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 782427FB214A55DB0041B7B3 /* XXBWindTransition.m */; };
 		78A964232148B43400378BBE /* XXBTransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964222148B43400378BBE /* XXBTransitionModel.m */; };
 		78A964262148B51B00378BBE /* XXBTransitionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964252148B51B00378BBE /* XXBTransitionListController.m */; };
 		78A964292148B82400378BBE /* XXBTransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964282148B82400378BBE /* XXBTransitionCell.m */; };
@@ -90,6 +91,8 @@
 		62D79A2C204526950070C061 /* XXBPushSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPushSecondViewController.m; sourceTree = "<group>"; };
 		782427F12149FD7D0041B7B3 /* XXBTransitionShotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionShotCell.h; sourceTree = "<group>"; };
 		782427F22149FD7D0041B7B3 /* XXBTransitionShotCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionShotCell.m; sourceTree = "<group>"; };
+		782427FA214A55DB0041B7B3 /* XXBWindTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBWindTransition.h; sourceTree = "<group>"; };
+		782427FB214A55DB0041B7B3 /* XXBWindTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBWindTransition.m; sourceTree = "<group>"; };
 		78A964212148B43400378BBE /* XXBTransitionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionModel.h; sourceTree = "<group>"; };
 		78A964222148B43400378BBE /* XXBTransitionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBTransitionModel.m; sourceTree = "<group>"; };
 		78A964242148B51B00378BBE /* XXBTransitionListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBTransitionListController.h; sourceTree = "<group>"; };
@@ -325,6 +328,8 @@
 				78A9643A2149177400378BBE /* XXBDrawerTransition.m */,
 				782427F12149FD7D0041B7B3 /* XXBTransitionShotCell.h */,
 				782427F22149FD7D0041B7B3 /* XXBTransitionShotCell.m */,
+				782427FA214A55DB0041B7B3 /* XXBWindTransition.h */,
+				782427FB214A55DB0041B7B3 /* XXBWindTransition.m */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -498,6 +503,7 @@
 				78A9643821490BD600378BBE /* XXBPushTransition.m in Sources */,
 				62BA72F82044FB1000D6662A /* XXBEventTransition.m in Sources */,
 				78A964322148E49900378BBE /* XXBScaleTransition.m in Sources */,
+				782427FC214A55DB0041B7B3 /* XXBWindTransition.m in Sources */,
 				78A964292148B82400378BBE /* XXBTransitionCell.m in Sources */,
 				62D79A0D2045078B0070C061 /* XXBCircleSpreadTransition.m in Sources */,
 				62A87ADA2045302A00A0554C /* XXBPhotoShowView.m in Sources */,

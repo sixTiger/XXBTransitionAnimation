@@ -14,6 +14,7 @@
 #import "XXBScaleTransition.h"
 #import "XXBPushTransition.h"
 #import "XXBDrawerTransition.h"
+#import "XXBWindTransition.h"
 
 static NSString *transitionCellID = @"transitionCellID";
 
@@ -41,7 +42,7 @@ static NSString *transitionCellID = @"transitionCellID";
 }
 
 - (void)initView {
-    self.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:0.5];
+    self.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
     _transitionManager = [[XXBTransitionManager alloc] init];
     self.navigationController.delegate = self.transitionManager;
     
@@ -74,11 +75,16 @@ static NSString *transitionCellID = @"transitionCellID";
     XXBTransitionModel *transitionModel3 = [[XXBTransitionModel alloc] init];
     transitionModel3.title = @"动画-XXBDrawerTransition";
     transitionModel3.transition = [XXBDrawerTransition class];
+    
+    XXBTransitionModel *transitionModel4 = [[XXBTransitionModel alloc] init];
+    transitionModel4.title = @"动画-XXBWindTransition";
+    transitionModel4.transition = [XXBWindTransition class];
 
     [self.dataSourceArray addObject:transitionModel0];
     [self.dataSourceArray addObject:transitionModel1];
     [self.dataSourceArray addObject:transitionModel2];
     [self.dataSourceArray addObject:transitionModel3];
+    [self.dataSourceArray addObject:transitionModel4];
     
 }
 #pragma mark - UITableViewDelegate

@@ -14,14 +14,15 @@
 
 @interface XXBDrawerTransition()
 {
-    int totalCount;
-    int flippedCount;
-    NSInteger numPerRow;
-    NSInteger totalNum;
-    NSInteger randomPick;
-    CGPoint pickedCenter;
-    NSMutableArray *snapshotCells;
-    NSMutableArray * flippedViews;
+    int                                         totalCount;
+    int                                         flippedCount;
+    NSInteger                                   numPerRow;
+    NSInteger                                   totalNum;
+    NSInteger                                   randomPick;
+    CGPoint                                     pickedCenter;
+    NSMutableArray                              *snapshotCells;
+    NSMutableArray                              * flippedViews;
+    id <UIViewControllerContextTransitioning>   cuttrntTransitionContext;
 }
 @end
 
@@ -32,6 +33,7 @@
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+    cuttrntTransitionContext = transitionContext;
     UIViewController *toVC = (UIViewController*)[transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     UIViewController *fromVC = (UIViewController*)[transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIView * containerView = [transitionContext containerView];
@@ -40,21 +42,10 @@
     if (self.operation == UINavigationControllerOperationPush) {
         [containerView addSubview:toView];
         [containerView addSubview:fromView];
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-            
-        } completion:^(BOOL finished) {
-            
-            [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-        }];
+      
     } else {
         [containerView addSubview:toView];
         [containerView addSubview:fromView];
-        
-        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-
-        } completion:^(BOOL finished) {
-            [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-        }];
     }
     
     
@@ -162,7 +153,10 @@
         [view removeFromSuperview];
         self->flippedCount ++;
         if(self->flippedCount == self->totalCount){
+            //所有的动画都做完的情况下才结束 context
             [(UIView*)[self->snapshotCells objectAtIndex:self->randomPick] removeFromSuperview];
+            [self->cuttrntTransitionContext completeTransition:![self->cuttrntTransitionContext transitionWasCancelled]];
+            self->cuttrntTransitionContext = nil;
         }
     }];
 }
