@@ -13,6 +13,7 @@
 #import "XXBTransitionManager.h"
 #import "XXBScaleTransition.h"
 #import "XXBPushTransition.h"
+#import "XXBDrawerTransition.h"
 
 static NSString *transitionCellID = @"transitionCellID";
 
@@ -69,10 +70,15 @@ static NSString *transitionCellID = @"transitionCellID";
     XXBTransitionModel *transitionModel2 = [[XXBTransitionModel alloc] init];
     transitionModel2.title = @"动画-XXBPushTransition";
     transitionModel2.transition = [XXBPushTransition class];
+    
+    XXBTransitionModel *transitionModel3 = [[XXBTransitionModel alloc] init];
+    transitionModel3.title = @"动画-XXBDrawerTransition";
+    transitionModel3.transition = [XXBDrawerTransition class];
 
     [self.dataSourceArray addObject:transitionModel0];
     [self.dataSourceArray addObject:transitionModel1];
     [self.dataSourceArray addObject:transitionModel2];
+    [self.dataSourceArray addObject:transitionModel3];
     
 }
 #pragma mark - UITableViewDelegate

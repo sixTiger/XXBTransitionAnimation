@@ -14,8 +14,7 @@
     return 1.0;
 }
 
-- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext
-{
+- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
     switch (self.operation) {
         case UINavigationControllerOperationPush:
         {

@@ -9,7 +9,7 @@
 #import "XXBTransitionManager.h"
 #import "XXBBaseTransition.h"
 
-@interface XXBTransitionManager()
+@interface XXBTransitionManager()<UIGestureRecognizerDelegate>
 
 @property(nonatomic, strong) UIPanGestureRecognizer                 *panGestureRecognizer;
 @property(nonatomic, weak) UIViewController                         *fromVC;
@@ -39,6 +39,7 @@
 //处理手势
 - (void)addPanGester {
     UIScreenEdgePanGestureRecognizer *panGestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGesture:)];
+    panGestureRecognizer.delegate = self;
     [self.toVC.view addGestureRecognizer:panGestureRecognizer];
     panGestureRecognizer.edges = UIRectEdgeLeft;
     _panGestureRecognizer = panGestureRecognizer;
@@ -80,6 +81,14 @@
     }
 }
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    if (gestureRecognizer == self.panGestureRecognizer) {
+        //应该控制一下手势
+        return YES;
+    } else {
+        return YES;
+    }
+}
 - (void)dealloc {
     NSLog(@"XXB | %s [Line %d] %@",__func__,__LINE__,[NSThread currentThread]);
 }
