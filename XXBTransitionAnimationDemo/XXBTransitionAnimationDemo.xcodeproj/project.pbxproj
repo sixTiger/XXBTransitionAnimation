@@ -42,6 +42,7 @@
 		78A964352148EB8B00378BBE /* XXBBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A964342148EB8B00378BBE /* XXBBaseTransition.m */; };
 		78A9643821490BD600378BBE /* XXBPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9643721490BD600378BBE /* XXBPushTransition.m */; };
 		78A9643B2149177400378BBE /* XXBDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9643A2149177400378BBE /* XXBDrawerTransition.m */; };
+		78EBEAE021C0F60E00C6ECD3 /* XXBPullDownTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EBEADF21C0F60E00C6ECD3 /* XXBPullDownTransition.m */; };
 		922F31445040E0EA7CC9E101 /* libPods-XXBTransitionAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1757A8F5DD1D4F5544512BFC /* libPods-XXBTransitionAnimationDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +112,8 @@
 		78A9643721490BD600378BBE /* XXBPushTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPushTransition.m; sourceTree = "<group>"; };
 		78A964392149177400378BBE /* XXBDrawerTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBDrawerTransition.h; sourceTree = "<group>"; };
 		78A9643A2149177400378BBE /* XXBDrawerTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBDrawerTransition.m; sourceTree = "<group>"; };
+		78EBEADE21C0F60E00C6ECD3 /* XXBPullDownTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBPullDownTransition.h; sourceTree = "<group>"; };
+		78EBEADF21C0F60E00C6ECD3 /* XXBPullDownTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBPullDownTransition.m; sourceTree = "<group>"; };
 		B8D152AA52433ED565186555 /* Pods-XXBTransitionAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXBTransitionAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXBTransitionAnimationDemo/Pods-XXBTransitionAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D63E25DF537473C77A1A82B6 /* Pods-XXBTransitionAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXBTransitionAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXBTransitionAnimationDemo/Pods-XXBTransitionAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -330,6 +333,8 @@
 				782427F22149FD7D0041B7B3 /* XXBTransitionShotCell.m */,
 				782427FA214A55DB0041B7B3 /* XXBWindTransition.h */,
 				782427FB214A55DB0041B7B3 /* XXBWindTransition.m */,
+				78EBEADE21C0F60E00C6ECD3 /* XXBPullDownTransition.h */,
+				78EBEADF21C0F60E00C6ECD3 /* XXBPullDownTransition.m */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 				62D79A2220451FB30070C061 /* XXBTransitionAnimationModel.m in Sources */,
 				78A964352148EB8B00378BBE /* XXBBaseTransition.m in Sources */,
 				62D79A2D204526950070C061 /* XXBPushSecondViewController.m in Sources */,
+				78EBEAE021C0F60E00C6ECD3 /* XXBPullDownTransition.m in Sources */,
 				78A9643821490BD600378BBE /* XXBPushTransition.m in Sources */,
 				62BA72F82044FB1000D6662A /* XXBEventTransition.m in Sources */,
 				78A964322148E49900378BBE /* XXBScaleTransition.m in Sources */,

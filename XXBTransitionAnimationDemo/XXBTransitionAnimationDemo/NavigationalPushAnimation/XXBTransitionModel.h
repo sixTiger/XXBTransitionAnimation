@@ -20,4 +20,8 @@
  */
 @property(nonatomic, strong) Class      transition;
 
+/**
+ 允许下拉关闭手势
+ */
+@property(nonatomic, assign) BOOL       enablePullDownGesture;
 @end

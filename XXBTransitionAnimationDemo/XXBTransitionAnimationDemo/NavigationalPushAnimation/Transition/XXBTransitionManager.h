@@ -12,5 +12,11 @@
 
 @interface XXBTransitionManager : NSObject <UINavigationControllerDelegate>
 
-@property(nonatomic, strong) XXBTransitionModel    *transitionModel;
+@property(nonatomic, strong) XXBTransitionModel     *transitionModel;
+
+
+/**
+ 是否允许使用下拉关闭手势
+ */
+@property(nonatomic, assign) BOOL                   enablePullDownGesture;
 @end

@@ -79,12 +79,18 @@ static NSString *transitionCellID = @"transitionCellID";
     XXBTransitionModel *transitionModel4 = [[XXBTransitionModel alloc] init];
     transitionModel4.title = @"动画-XXBWindTransition";
     transitionModel4.transition = [XXBWindTransition class];
+    
+    XXBTransitionModel *transitionModel5 = [[XXBTransitionModel alloc] init];
+    transitionModel5.title = @"下拉关闭";
+    transitionModel5.transition = [XXBPushTransition class];
+    transitionModel5.enablePullDownGesture = YES;
 
     [self.dataSourceArray addObject:transitionModel0];
     [self.dataSourceArray addObject:transitionModel1];
     [self.dataSourceArray addObject:transitionModel2];
     [self.dataSourceArray addObject:transitionModel3];
     [self.dataSourceArray addObject:transitionModel4];
+    [self.dataSourceArray addObject:transitionModel5];
     
 }
 #pragma mark - UITableViewDelegate
