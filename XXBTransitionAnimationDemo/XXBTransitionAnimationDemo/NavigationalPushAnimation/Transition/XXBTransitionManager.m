@@ -190,6 +190,9 @@ typedef enum : NSUInteger {
         if (translation.x < 50) {
             return NO;
         } else {
+            if (self.currentActionGester != XXBTransitionActionGesterNone) {
+                [self.panGestureRecognizer cancelsTouchesInView];
+            }
             return YES;
         }
     }
